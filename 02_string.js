@@ -10,8 +10,8 @@ var charAtLastIndex = greet.charAt(lengthGreet-1);
 console.log(` Last Char is ${charAtLastIndex} of Index is ${lengthGreet}`);
 console.log(`------------------------------------`);
 
-var firstName = "Gajanan";
-var lastName = " Kharat";
+var firstName = "Priyanka";
+var lastName = " Kolekar";
 var result = firstName + lastName;
 console.log(`concatenation String is  ${result}`);
 var result = firstName.concat(lastName);
@@ -40,7 +40,14 @@ var resultTrimEnd = greet.trimEnd();
 var trimEndLength = resultTrimEnd.length; 
 var endSpaces = greet.length - trimEndLength;
 console.log(` End Spaces is : ${endSpaces} `);
-console.log('-----------------------------------------------');
-var grret="Good Morning"
-var result=greet.replace('', '-')
-console.log('After replace'`with `` -`);
+
+console.log(`------------------------------------`);
+var greet = "Good Morning Virat Dude";
+var result = greet.replace(' ', '-');
+console.log(`After replace ' ' with '-' string is : ${result}`);
+var result = greet.replace('o', 'O');
+console.log(`Result string is : ${result}`);
+
+console.log(`------------------------------------`);
+var result = greet.slice(5, 12);
+console.log(`Slice from index 5 till 12 is : ${result}`);
