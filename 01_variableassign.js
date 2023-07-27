@@ -6,7 +6,7 @@ console.log(myFullName);
 
 var myFirstName="Priyanka";//update the variable
 var myMiddleName="Tanaji";
-var MyLastName="Kolekar"
+var MyLastName="Kolekar";
 
 var myLove="I Love only JS";//Declaration of variable
 console.log(myLove);
@@ -17,7 +17,7 @@ var lastName="Kolekar";
 console.log(lastName);
 var age =23;
 console.log(age);
-var address= "A/P mahud ,sangola"
+var address= "A/P mahud ,sangola";
 console.log(address);
 var pincode= 413306;
 console.log(pincode);
