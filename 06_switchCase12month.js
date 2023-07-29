@@ -1,5 +1,5 @@
 console.log(`..................Assignment -1..........................`);
-function monthOfYear(month) {
+function  monthOfYear(month) {
   switch (month) {
     case 1:
       console.log(`${month}- January`);
